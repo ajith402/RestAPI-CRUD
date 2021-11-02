@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-02T14:45:39 IST" name="RESTAPI" finished-at="2021-11-02T14:45:41 IST" duration-ms="2403">
+    <groups>
+    </groups>
+    <test started-at="2021-11-02T14:45:39 IST" name="Rest API Test" finished-at="2021-11-02T14:45:41 IST" duration-ms="2403">
+      <class name="com.rest.CRUD.RestAPI_CRUD_Operations">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.rest.CRUD.RestAPI_CRUD_Operations@1356d4d4]" started-at="2021-11-02T14:45:39 IST" name="setUP" finished-at="2021-11-02T14:45:39 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="getUsersDataOnAPage(int)[pri:2, instance:com.rest.CRUD.RestAPI_CRUD_Operations@1356d4d4]" started-at="2021-11-02T14:45:39 IST" name="getUsersDataOnAPage" finished-at="2021-11-02T14:45:41 IST" duration-ms="2360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersDataOnAPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rest.CRUD.RestAPI_CRUD_Operations@1356d4d4]" started-at="2021-11-02T14:45:41 IST" name="tearDown" finished-at="2021-11-02T14:45:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rest.CRUD.RestAPI_CRUD_Operations -->
+    </test> <!-- Rest API Test -->
+  </suite> <!-- RESTAPI -->
+</testng-results>

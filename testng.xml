@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RESTAPI">
+	<parameter name="pageNumber" value="2" />
+  <test thread-count="5" name="Rest API Test">
+    <classes>
+      <class name="com.rest.CRUD.RestAPI_CRUD_Operations" />
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
